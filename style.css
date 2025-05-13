@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(28, 28, 28);
+    transition: all 0.5s ease;
+   
+}
+
+.text-center{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.row{
+    text-align: center;
+    margin: 2px 0;
+}
+
+#container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+   border-radius: 15px;
+   background-color: rgb(28, 28, 28);
+   
+}
+
+.input{
+    margin-top: 9px;
+    margin-bottom: 15px;
+    padding:25px 43px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(211, 185, 255);
+    background-color:rgb(227, 220, 255) ;
+    color: rgb(0, 0, 0);
+    
+}
+
+.button{
+    font-size: 19px;
+    font-weight: 600;
+    padding: 25px;
+    margin: 0px 1px;
+    border: 2px solid rgb(173, 241, 252) ;
+    border-radius: 50px;
+    width: 80px;
+    background-color: rgb(173, 241, 252);
+    color: rgb(0, 0, 0);
+   
+}
+
+.button:hover{
+   background-color: rgb(152, 230, 242) ;
+}
+
+.btn{
+   width: 130px;
+  border: 2px solid rgb(216, 207, 255); 
+  background-color:rgb(216, 208, 253);
+}
+
+.btn:hover{
+    background-color: rgb(203, 194, 238);
+}
+
+.last{
+   width: 98px;
+   background-color: rgb(216, 207, 255);
+   border: 2px solid rgb(216, 207, 255);
+}
+
+.last:hover{
+    background-color: rgb(203, 194, 238);
+}
+
+.equal{
+    width: 127px;
+    background-color: rgb(138, 251, 213);
+    border: 2px solid  rgb(138, 251, 213);
+ }  
+
+.equal:hover{
+    background-color: rgb(122, 238, 199)
+}
+ .medium{
+    width: 97px;
+    padding: 24px;
+    border:2px solid  rgb(216, 207, 255);
+    background-color: rgb(216, 207, 255);
+ } 
+
+ .medium:hover{
+ background-color: rgb(203, 194, 238);
+ } 
